@@ -1,0 +1,71 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.search-input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+  
+.search-checkbox {
+    margin-bottom: -20px;
+    margin-left: -160px;
+}
+  
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.search-product {
+    position:relative;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    height: 520px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 39px;
+    margin-bottom: -20px;
+
+}
+  
+.search-product img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+  
+.search-product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.search-product p {
+    margin-bottom: 10px;
+}
+  
+.search-product .discounted-cost {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ff5151;
+}
+  
+.search-product .original-cost {
+    text-decoration: line-through;
+    color: gray;
+}
+  
+.search-product .new {
+    font-weight: bold;
+    color: #ff2d2d;
+}

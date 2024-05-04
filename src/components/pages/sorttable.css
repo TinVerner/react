@@ -1,0 +1,39 @@
+.sort-button {
+    background-color: #ff5151;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+  
+
+.sort-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.sort-table th,
+.sort-table td {
+    text-align: left;
+    padding: 8px;
+}
+  
+.sort-table th {
+    background-color: #ff817e;
+    color: white;
+}
+
+.sort-table tr {
+    transition: background-color 0.2s linear;
+}
+  
+.sort-table td {
+    border: 1px solid #ddd;
+}
+  
+.sort-table tr:hover {
+    background-color: #ffd6d6;
+}

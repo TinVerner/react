@@ -1,0 +1,23 @@
+.order-second {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 12%;
+  margin-bottom: 20px;
+}
+
+.delivery-method {
+  width: 50%;
+}
+
+.payment-method {
+  width: 50%;
+}
+
+
+.submit-btn {
+  margin-top: 10%;
+}

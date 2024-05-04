@@ -1,0 +1,79 @@
+.buttons {
+    width:100vh;
+}
+
+.sort-button {
+    background-color: #ff5151;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#product {
+    position:relative;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    height: 580px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+#product button {
+    position: absolute;
+    bottom:0;
+    font-size: 18px;
+}
+
+.new {
+    font-weight: bold;
+    color:#ff2d2d;
+}
+
+#product img {
+    border-radius: 8px;
+}
+
+
+
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.discounted-cost {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ff5151;
+}
+
+.original-cost {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#product p {
+    margin-bottom: 10px;
+}
+
+
+#product img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin-right: 20px;
+}
